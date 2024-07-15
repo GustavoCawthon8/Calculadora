@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+  font-size: large;
+}
+
+.calc {
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient( #1E7AEF, #FFFFFF);
+  height: 400px;
+  
+}
+
+.div_nome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white
+}
+
+.tecla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ccc;
+  border: 3px solid #aaa;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  color: black;
+}
+
+.teclasOp {
+  background: #1449FF !important;
+  border-color: #2509A9 !important;
+  color: white !important;
+}
+
+.div_teclas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 220px;
+}
+#tlimpar{
+  background: #FF0C0C !important;
+  border-color: #990F0F !important;
+  color: white !important;
+}
+
+/*display*/
+.div_display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  width: 220px;
+  border-radius: 10px;
+
+}
+
+.display {
+  background: #1E7AEF;
+  width: 220px;
+  color: white;
+  text-align: right;
+  padding: 2px;
+  border-radius: 10px;
+}
